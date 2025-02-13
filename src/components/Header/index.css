@@ -1,0 +1,13 @@
+.header-container {
+  height: 3rem;
+  width: 100vw;
+}
+
+.title-heading {
+  font-size: 2rem;
+}
+
+.cart-container {
+  height: 100%;
+  width: 15%;
+}

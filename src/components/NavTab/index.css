@@ -1,0 +1,11 @@
+.nav-item-container {
+  list-style: none;
+  min-width: 125px;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.highlight {
+  color: rgb(255, 106, 0);
+  border-bottom: 2px solid rgb(255, 106, 0);
+}
