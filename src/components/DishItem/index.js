@@ -57,7 +57,7 @@ const DishItem = ({dish}) => {
         <p>{`${dishCurrency} ${dishPrice}`}</p>
         <p>{dishDescription}</p>
         {dishAvailability ? renderAddtoCart() : <p>Not available</p>}
-        {isCustomizable && <p>Customization available</p>}
+        {isCustomizable && <p>Customizations available</p>}
       </div>
       <div className="text-center d-flex justify-content-center align-items-center">
         <p>{`${dishCalories} calories`}</p>
