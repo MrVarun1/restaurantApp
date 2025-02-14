@@ -34,7 +34,7 @@ const Home = () => {
         setPageStatus(statusConstants.success)
       } else {
         setPageStatus(statusConstants.failure)
-        console.log('API call failed')
+        console.log('API is call failed')
       }
     } catch (e) {
       console.log('API call ERROR:', e)
