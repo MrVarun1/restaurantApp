@@ -16,7 +16,7 @@ const Header = ({restaurantDetails}) => {
       <div className="cart-container d-flex justify-content-around align-items-center">
         <p className="d-none m-0 text-center d-md-inline para">My Orders</p>
         <AiOutlineShoppingCart style={{fontSize: '1.5rem'}} />
-        {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
+        <span className="cart-badge">{cartCount}</span>
       </div>
     </div>
   )

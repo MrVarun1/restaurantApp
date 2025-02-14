@@ -9,7 +9,9 @@ const NavTab = ({activeCatId, category, setActiveCat}) => {
       className={`nav-item-container mx-2 d-flex align-items-center justify-content-center ${highlight}`}
       onClick={() => setActiveCat(menuCategoryId)}
     >
-      <p>{menuCategory}</p>
+      <button type="button" className="btn">
+        {menuCategory}
+      </button>
     </li>
   )
 }
